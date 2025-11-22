@@ -1,0 +1,18 @@
+project_name                 = "tf-linux-vm-demo"
+location                     = "australiaeast"
+environment                  = "dev"
+vm_admin_username            = "azureuser"
+vm_admin_ssh_public_key_path = "~/.ssh/id_rsa.pub"
+
+# Optional: Customize VM size (default: Standard_B1s)
+# vm_size = "Standard_B2s"
+
+# Optional: Customize network settings
+# vnet_address_space    = ["10.0.0.0/16"]
+# subnet_address_prefix = "10.0.1.0/24"
+
+# Optional: Add common tags
+# common_tags = {
+#   Project = "DevOps Lab 03"
+#   Owner   = "Your Name"
+# }
